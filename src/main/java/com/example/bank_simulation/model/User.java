@@ -30,18 +30,6 @@ public class User {
     @Column
     private Boolean active;
 
-//    public User(String document, String name, String password, Double balance, List<Long> registryIds, Boolean active) {
-//        this.document = document;
-//        this.name = name;
-//        this.password = password;
-//        this.balance = balance;
-//        this.registryIds = registryIds;
-//        this.active = active;
-//    }
-//
-//    public User() {
-//    }
-//
     public String getDocument() {
         return document;
     }
@@ -73,14 +61,6 @@ public class User {
     public void setBalance(Double balance) {
         this.balance = balance;
     }
-
-//    public List<Long> getRegistryIds() {
-//        return registryIds;
-//    }
-//
-//    public void setRegistry(List<Long> registrIds) {
-//        this.registryIds = registryIds;
-//    }
 
     public Boolean getActive() {
         return active;

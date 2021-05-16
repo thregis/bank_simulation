@@ -61,14 +61,6 @@ public class UserDTO {
         this.balance = balance;
     }
 
-//    public List<Long> getRegistryIds() {
-//        return registryIds;
-//    }
-//
-//    public void setRegistry(List<Long> registryIds) {
-//        this.registryIds = registryIds;
-//    }
-
     public Boolean getActive() {
         return active;
     }

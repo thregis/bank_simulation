@@ -27,17 +27,6 @@ public class Registry {
     @JoinColumn
     private User user;
 
-//    public Registry(Long id, Double value, Boolean signal, LocalDate date, String userDocument) {
-//        this.id = id;
-//        this.value = value;
-//        this.signal = signal;
-//        this.date = date;
-//        this.userDocument = userDocument;
-//    }
-//
-//    public Registry() {
-//    }
-//
     public Long getId() {
         return id;
     }
@@ -69,14 +58,6 @@ public class Registry {
     public void setDate(LocalDate date) {
         this.date = date;
     }
-
-//    public String getUserDocument() {
-//        return userDocument;
-//    }
-//
-//    public void setUserDocument(String userDocument) {
-//        this.userDocument = userDocument;
-//    }
 
     public User getUser() {
         return user;

@@ -1,7 +1,6 @@
 package com.example.bank_simulation.service;
 
 import com.example.bank_simulation.dto.RegistryDTO;
-import com.example.bank_simulation.dto.UserDTO;
 import com.example.bank_simulation.dto.mapper.RegistryMapper;
 import com.example.bank_simulation.model.User;
 import com.example.bank_simulation.repository.RegistryRepository;

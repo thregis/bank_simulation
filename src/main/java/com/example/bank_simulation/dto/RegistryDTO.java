@@ -1,6 +1,5 @@
 package com.example.bank_simulation.dto;
 
-import com.example.bank_simulation.model.User;
 
 import java.time.LocalDate;
 
@@ -17,17 +16,6 @@ public class RegistryDTO {
 
     private String userDocument;
 
-//    public RegistryDTO(Long id, Double value, Boolean signal, LocalDate date, User user) {
-//        this.id = id;
-//        this.value = value;
-//        this.signal = signal;
-//        this.date = date;
-//        this.user = user;
-//    }
-//
-//    public RegistryDTO() {
-//    }
-//
     public Long getId() {
         return id;
     }
@@ -57,14 +45,6 @@ public class RegistryDTO {
     public void setDate(LocalDate date) {
         this.date = date;
     }
-
-//    public User getUser() {
-//        return user;
-//    }
-//
-//    public void setUser(User user) {
-//        this.user = user;
-//    }
 
     public String getUserDocument() {
         return userDocument;
